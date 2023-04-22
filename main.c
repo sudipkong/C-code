@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int a = 120;
-int b = 120;
+int a = 0;
+int b = 0;
 int c = 0;
 
 
@@ -12,7 +12,6 @@ int main()
 
     printf("the sum of a and b is:%d\n", c);
     
-    prinf("");
     
     
 
