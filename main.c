@@ -10,6 +10,7 @@ int main()
 
     c = a+b;
 
+    printf("%d\n", c);
     printf("hello world");
     
 
