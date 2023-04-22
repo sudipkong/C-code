@@ -10,8 +10,10 @@ int main()
 
     c = a+b;
 
-    printf("%d\n", c);
+    printf("the sum of a and b is:%d\n", c);
     printf("hello world");
+
+    
     
 
 
