@@ -4,6 +4,8 @@
 
 
 
+
+
 // test line numbers
 
 int main()
@@ -11,6 +13,8 @@ int main()
     int ar[5] = {1,3,4,3,34};
     int largest = ar[0];
     int output;
+
+    int smallest = ar[0];
 
     for(int i = 0; i < 5; i++)
     {
@@ -20,10 +24,25 @@ int main()
         }
     }
 
+    for(int j = 0; j < 5; j++)
+
+
+
+    
+    {
+        if(ar[j] < smallest)
+        {
+            smallest = ar[j];
+        }
+    }
+
+
+
     output = SUM(largest,50);
 
     printf("largest: %d\n",largest);
     printf("output:%d\n",output);
+    printf("smallest: %d\n",smallest);
 
     return 0;
 }
