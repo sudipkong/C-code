@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//to print the binary
 
 void print_binary_(unsigned int num)
 {
